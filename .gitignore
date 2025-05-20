@@ -7,7 +7,7 @@ __pycache__/
 *$py.class
 
 # Model and encoder files (can be large or unnecessary in repo)
-*.pkl
+
 *.h5
 *.keras
 
