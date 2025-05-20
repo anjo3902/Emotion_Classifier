@@ -1,0 +1,38 @@
+# Ignore Python virtual environment
+env/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Model and encoder files (can be large or unnecessary in repo)
+*.pkl
+*.h5
+*.keras
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment and IDE settings
+.env
+.venv
+*.env
+*.DS_Store
+.vscode/
+.idea/
+
+# Streamlit logs and cache
+.streamlit/
+logs/
+*.log
+
+# Data files
+
+*.tsv
+*.xlsx
+*.json
+
+# OS generated files
+Thumbs.db
+.DS_Store
