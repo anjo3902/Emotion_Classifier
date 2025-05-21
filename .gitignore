@@ -6,10 +6,10 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# Model and encoder files (can be large or unnecessary in repo)
-
+# Model and encoder files (exclude heavy formats, allow .pkl for deployment)
 *.h5
 *.keras
+# *.pkl   <-- Commented out to include .pkl files
 
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
@@ -27,11 +27,10 @@ __pycache__/
 logs/
 *.log
 
-# Data files
-
+# Data files (optional – you can allow .json if needed)
 *.tsv
 *.xlsx
-*.json
+# *.json  <-- Uncomment this if your app needs to load .json files
 
 # OS generated files
 Thumbs.db
